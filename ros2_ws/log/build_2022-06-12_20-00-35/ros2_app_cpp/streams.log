@@ -1,0 +1,65 @@
+[0.007s] Invoking command in '/home/ros2_ws/build/ros2_app_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2_ws/src/ros2_app_cpp -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/ros2_app_cpp
+[0.040s] -- The C compiler identification is GNU 9.4.0
+[0.087s] -- The CXX compiler identification is GNU 9.4.0
+[0.089s] -- Check for working C compiler: /usr/bin/cc
+[0.135s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.135s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.200s] -- Detecting C compile features
+[0.200s] -- Detecting C compile features - done
+[0.202s] -- Check for working CXX compiler: /usr/bin/c++
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.267s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Detecting CXX compile features
+[0.340s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.356s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.462s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.489s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.532s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.549s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.626s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.627s] -- Looking for pthread.h
+[0.674s] -- Looking for pthread.h - found
+[0.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.744s] -- Looking for pthread_create in pthreads
+[0.802s] -- Looking for pthread_create in pthreads - not found
+[0.802s] -- Looking for pthread_create in pthread
+[0.881s] -- Looking for pthread_create in pthread - found
+[0.882s] -- Found Threads: TRUE  
+[1.001s] -- Configuring done
+[1.005s] -- Generating done
+[1.005s] -- Build files have been written to: /home/ros2_ws/build/ros2_app_cpp
+[1.009s] Invoked command in '/home/ros2_ws/build/ros2_app_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2_ws/src/ros2_app_cpp -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/ros2_app_cpp
+[1.010s] Invoking command in '/home/ros2_ws/build/ros2_app_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2_ws/build/ros2_app_cpp -- -j20 -l20
+[1.038s] [35m[1mScanning dependencies of target number_publisher[0m
+[1.057s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[1.859s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[1.918s] [100%] Built target number_publisher
+[1.924s] Invoked command in '/home/ros2_ws/build/ros2_app_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2_ws/build/ros2_app_cpp -- -j20 -l20
+[1.945s] Invoking command in '/home/ros2_ws/build/ros2_app_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2_ws/build/ros2_app_cpp
+[1.956s] -- Install configuration: ""
+[1.956s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/lib/$(PROJECT_NAME)/number_publisher
+[1.956s] -- Set runtime path of "/home/ros2_ws/install/ros2_app_cpp/lib/$(PROJECT_NAME)/number_publisher" to ""
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_app_cpp
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_app_cpp
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/environment/ament_prefix_path.sh
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/environment/ament_prefix_path.dsv
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/environment/path.sh
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/environment/path.dsv
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/local_setup.bash
+[1.957s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/local_setup.sh
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/local_setup.zsh
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/local_setup.dsv
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/package.dsv
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ament_index/resource_index/packages/ros2_app_cpp
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/cmake/ros2_app_cppConfig.cmake
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/cmake/ros2_app_cppConfig-version.cmake
+[1.958s] -- Installing: /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/package.xml
+[1.960s] Invoked command in '/home/ros2_ws/build/ros2_app_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2_ws/build/ros2_app_cpp
