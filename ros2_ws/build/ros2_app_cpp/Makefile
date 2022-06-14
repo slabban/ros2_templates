@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named number_counter
+
+# Build rule for target.
+number_counter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 number_counter
+.PHONY : number_counter
+
+# fast build rule for target.
+number_counter/fast:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/build
+.PHONY : number_counter/fast
+
+#=============================================================================
 # Target rules for targets named number_publisher
 
 # Build rule for target.
@@ -205,6 +218,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/number_counter.o: src/number_counter.cpp.o
+
+.PHONY : src/number_counter.o
+
+# target to build an object file
+src/number_counter.cpp.o:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.o
+.PHONY : src/number_counter.cpp.o
+
+src/number_counter.i: src/number_counter.cpp.i
+
+.PHONY : src/number_counter.i
+
+# target to preprocess a source file
+src/number_counter.cpp.i:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.i
+.PHONY : src/number_counter.cpp.i
+
+src/number_counter.s: src/number_counter.cpp.s
+
+.PHONY : src/number_counter.s
+
+# target to generate assembly for a file
+src/number_counter.cpp.s:
+	$(MAKE) -f CMakeFiles/number_counter.dir/build.make CMakeFiles/number_counter.dir/src/number_counter.cpp.s
+.PHONY : src/number_counter.cpp.s
 
 src/number_publisher.o: src/number_publisher.cpp.o
 
@@ -246,9 +286,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... number_counter"
 	@echo "... number_publisher"
 	@echo "... ros2_app_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... src/number_counter.o"
+	@echo "... src/number_counter.i"
+	@echo "... src/number_counter.s"
 	@echo "... src/number_publisher.o"
 	@echo "... src/number_publisher.i"
 	@echo "... src/number_publisher.s"

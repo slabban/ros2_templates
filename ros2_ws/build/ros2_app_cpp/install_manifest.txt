@@ -1,4 +1,5 @@
 /home/ros2_ws/install/ros2_app_cpp/lib/ros2_app_cpp/number_publisher
+/home/ros2_ws/install/ros2_app_cpp/lib/ros2_app_cpp/number_counter
 /home/ros2_ws/install/ros2_app_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_app_cpp
 /home/ros2_ws/install/ros2_app_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_app_cpp
 /home/ros2_ws/install/ros2_app_cpp/share/ros2_app_cpp/environment/ament_prefix_path.sh
