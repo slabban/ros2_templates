@@ -15,13 +15,14 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(my_robot_interfaces REQUIRED)
 
 # Add executable
 add_executable(number_publisher src/number_publisher.cpp)
 ament_target_dependencies(number_publisher rclcpp std_msgs)
 
 add_executable(number_counter src/number_counter.cpp)
-ament_target_dependencies(number_counter rclcpp std_msgs)
+ament_target_dependencies(number_counter rclcpp std_msgs my_robot_interfaces)
 
 
 install(TARGETS

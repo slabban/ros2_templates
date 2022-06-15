@@ -1,17 +1,14 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>ros2_app_cpp</name>
+  <name>my_robot_bringup</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="slabban2@gmail.com">root</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
-  <depend>rclcpp</depend>
-  <depend>std_msgs</depend>
-  <depend>my_robot_ineterfaces</depend>
+  <exec_depend>ros2_app_cpp</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
