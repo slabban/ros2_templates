@@ -1,3 +1,5 @@
+#!/bin/bash
+
 docker run \
     -it --rm \
     --name="ros2_torch_container" \

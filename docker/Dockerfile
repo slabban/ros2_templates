@@ -79,6 +79,10 @@ RUN apt-get update && apt-get install -y \
         ros-foxy-stereo-image-proc \
         ros-foxy-pcl-ros \
         && rm -rf /var/lib/apt/lists/*
+        
+RUN apt-get update && apt-get install -y \
+	&& apt install ros-foxy-rmw-cyclonedds-cpp -y \
+        && rm -rf /var/lib/apt/lists/*
 
 RUN rosdep init
 
